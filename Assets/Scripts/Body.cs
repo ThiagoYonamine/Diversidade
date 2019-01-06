@@ -6,7 +6,7 @@ public class Body : MonoBehaviour {
     private Animator animator;
     private int body_idle = Animator.StringToHash("Idle");
     private int body_Hello = Animator.StringToHash("Hello");
-    private int body_blink = Animator.StringToHash("Blink");
+
   
     void Start() {
         animator = this.GetComponent<Animator> ();

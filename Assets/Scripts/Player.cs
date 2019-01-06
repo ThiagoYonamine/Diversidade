@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.IO;
 using System;
 public class Player : MonoBehaviour {
@@ -14,41 +15,66 @@ public class Player : MonoBehaviour {
     private GameObject eyes;
     private Eyes eyesScript;
 
-    private string path = "Assets/Texts/test.txt";
-    private string[] texts;
-    public AudioSource audioData;
-    public AudioSource audioData2;
+    public string pathText = "test.txt";
+    public string pathButtons = "Buttons01.txt";
+    private string[] textsGuide;
+    private string[] buttonsGuide;
+    private string[] audioGuide;
+    public AudioClip[] audioClips;
+    public AudioSource audioSource;
     private int step;
+
+    public GameObject buttons;
     void Start() {
         step = 0;
-        //boca = this.gameObject.transform.GetChild(0).GetComponent<Animator> ();
         mouth = this.gameObject.transform.GetChild(0).gameObject;
         mouthScript = mouth.GetComponent<Mouth>();
         body = this.gameObject.transform.GetChild(1).gameObject;
         bodyScript = body.GetComponent<Body>();
         eyes = this.gameObject.transform.GetChild(2).gameObject;
         eyesScript = eyes.GetComponent<Eyes>();
+        LoadText();
+        LoadButtons();
+        HideAllButtons();
+    }
 
-        StreamReader reader = new StreamReader(path); 
-        string file= reader.ReadToEnd();
+
+    private void LoadText() {
+        StreamReader reader = new StreamReader("Assets/Texts/"+pathText);
+        string file = reader.ReadToEnd();
         reader.Close();
-        texts = file.Split(new string[] { ";" }, StringSplitOptions.None);
-        foreach (string s in texts){
-            Debug.Log(s);
+        textsGuide = file.Split(new string[] { ";" }, StringSplitOptions.None);   
+    }
+
+    private void LoadButtons() {
+        StreamReader reader = new StreamReader("Assets/Buttons/"+pathButtons);
+        string file = reader.ReadToEnd();
+        reader.Close();
+        buttonsGuide = file.Split(new string[] { ";" }, StringSplitOptions.None);
+    }
+
+    private void HideAllButtons() {
+        int total = buttons.transform.childCount;
+        for(int i=0; i<total; i++){
+            GameObject button = buttons.transform.GetChild(i).gameObject;
+            button.SetActive(false);
         }
     }
 
-    // Update is called once per frame
-    void Update() {
-       // Debug.Log(".");
-        if(Input.GetKeyDown("a")){
-            StartCoroutine(Control(texts[step]));
-            audioData.Play(0);
+    private void ShowButtons() {
+        string[] buttonsNumbers = buttonsGuide[step].Split(new string[] { " " }, StringSplitOptions.None);
+        foreach(string s in buttonsNumbers) {
+            Debug.Log(s);
+            buttons.transform.GetChild(int.Parse(s)).gameObject.SetActive(true);
         }
     }
-    public void NextStep(int step) {
-            StartCoroutine(Control(texts[step]));
-            audioData2.Play(0);
+
+    public void NextStep(int newstep) {
+            step = newstep;
+            StartCoroutine(Control(textsGuide[step]));
+            audioSource.clip = audioClips[step];
+            audioSource.Play(0);
+            HideAllButtons();
     }
      IEnumerator Control(string s) {
         foreach (char c in s) {
@@ -56,6 +82,8 @@ public class Player : MonoBehaviour {
                 bodyScript.Move(c);
             } else if (c=='(' || c==')') {
                 eyesScript.BlinkEyes(c);
+            } else if (c=='!') {
+                ShowButtons();
             } else {
                 mouthScript.SayText(c);
                 yield return new WaitForSeconds(0.08f);
