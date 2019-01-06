@@ -8,6 +8,8 @@ TextureImporter:
     21300006: Jessica_3
     21300008: Jessica_4
     21300010: Jessica_5
+    21300012: Jessica_7
+    21300014: Jessica_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -238,6 +240,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e8193ab7583876443bd21ccf86e30e92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jessica_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 634
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293272ed6f51b864394f4b6254adff50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jessica_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 634
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ab2091a37f5104781568847ac50686
       vertices: []
       indices: 
       edges: []
