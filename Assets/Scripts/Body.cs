@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Body : MonoBehaviour {
+    public string spriteName;
     private Animator animator;
-    private int body_idle = Animator.StringToHash("Idle");
-    private int body_Hello = Animator.StringToHash("Hello");
-
-  
+    private int body_idle;
+    private int body_Hello;
     void Start() {
         animator = this.GetComponent<Animator> ();
+        body_idle = Animator.StringToHash(spriteName + "_body_idle");
+        body_Hello = Animator.StringToHash(spriteName + "_body_hello");
     }
      public void Move(char c) {
             switch (c){

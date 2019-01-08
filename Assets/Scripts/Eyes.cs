@@ -5,11 +5,14 @@ using UnityEngine;
 public class Eyes : MonoBehaviour
 {
    private Animator animator;
-    private int eyes_open = Animator.StringToHash("01_eye_open");
-    private int eyes_close = Animator.StringToHash("01_eye_close");
+   public string spriteName;
+    private int eyes_open;
+    private int eyes_close;
 
     void Start() {
         animator = this.GetComponent<Animator> ();
+        eyes_open = Animator.StringToHash(spriteName + "_eye_open");
+        eyes_close = Animator.StringToHash(spriteName + "_eye_close");
     }
      public void BlinkEyes(char c) {
             switch (c){

@@ -38,7 +38,6 @@ public class Player : MonoBehaviour {
         HideAllButtons();
     }
 
-
     private void LoadText() {
         StreamReader reader = new StreamReader("Assets/Texts/"+pathText);
         string file = reader.ReadToEnd();
