@@ -87,8 +87,7 @@ public class Player : MonoBehaviour {
                 mouthScript.SayText(c);
                 yield return new WaitForSeconds(0.08f);
             }
-        }
-           
+        }           
     }
     
 }
