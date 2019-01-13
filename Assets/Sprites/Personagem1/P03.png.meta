@@ -9,6 +9,14 @@ TextureImporter:
     21300008: P03_5
     21300010: P03_2
     21300012: P03_6
+    21300014: P03_7
+    21300016: P03_8
+    21300018: P03_9
+    21300020: P03_10
+    21300022: P03_11
+    21300024: P03_12
+    21300026: P03_13
+    21300028: P03_14
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -128,11 +136,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 20
-        y: 388
+        y: 462
         width: 126
         height: 282
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4878787, y: 0.78523284}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 341
-        y: 388
+        y: 462
         width: 103
         height: 281
       alignment: 6
@@ -168,11 +176,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 74
         width: 149
         height: 281
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4135409, y: 0.7844866}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,11 +196,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 164
-        y: 0
+        y: 74
         width: 162
         height: 282
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37983647, y: 0.78183407}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,11 +216,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 335
-        y: 0
+        y: 74
         width: 167
         height: 282
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3680979, y: 0.781943}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,8 +235,8 @@ TextureImporter:
       name: P03_2
       rect:
         serializedVersion: 2
-        x: 525
-        y: 630
+        x: 177
+        y: 756
         width: 46
         height: 13
       alignment: 0
@@ -247,8 +255,8 @@ TextureImporter:
       name: P03_6
       rect:
         serializedVersion: 2
-        x: 616
-        y: 630
+        x: 268
+        y: 756
         width: 46
         height: 13
       alignment: 0
@@ -259,6 +267,166 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 031366565da9e5d4cb7a093f4017c9bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 455
+        width: 137
+        height: 282
+      alignment: 9
+      pivot: {x: 0.49299833, y: 0.7893348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee0f00befb962c4dbeb8521469a38b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 456
+        width: 127
+        height: 282
+      alignment: 9
+      pivot: {x: 0.4924177, y: 0.7852781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e62704a7f0d64bbbb7816442dd47c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_9
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 456
+        width: 177
+        height: 282
+      alignment: 9
+      pivot: {x: 0.48327568, y: 0.78537464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d757ecd900d6f344e89388b8756b02b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_10
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 456
+        width: 132
+        height: 282
+      alignment: 9
+      pivot: {x: 0.5262747, y: 0.78548414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab583516b58b014c87dbd1e16da3869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 69
+        width: 138
+        height: 285
+      alignment: 9
+      pivot: {x: 0.5124893, y: 0.78884953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f76c174c6d8f4a40b7c564ad18b5f24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_12
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 70
+        width: 162
+        height: 285
+      alignment: 9
+      pivot: {x: 0.49787885, y: 0.7871459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a9ef3a81e69f4ebbca046587fc420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_13
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 69
+        width: 160
+        height: 287
+      alignment: 9
+      pivot: {x: 0.49570847, y: 0.78563476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c294a2c103e387843a590e6f70c709bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_14
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 69
+        width: 148
+        height: 286
+      alignment: 9
+      pivot: {x: 0.47936842, y: 0.7888571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f328100133a90b4cb2be49ee1ee4362
       vertices: []
       indices: 
       edges: []

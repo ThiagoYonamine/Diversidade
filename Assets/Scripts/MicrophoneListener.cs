@@ -19,7 +19,7 @@
      //public to allow temporary listening over the speakers if you want of the mic output
      //but internally it toggles the output sound to the speakers of the audiosource depending
      //on if the microphone listener is on or off
-     public bool disableOutputSound = false; /
+     public bool disableOutputSound = false; 
  
      //an audio source also attached to the same object as this script is
      AudioSource src;

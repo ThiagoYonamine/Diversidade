@@ -36,6 +36,8 @@ public class Player : MonoBehaviour {
         LoadText();
         LoadButtons();
         HideAllButtons();
+
+        NextStep(0);
     }
 
     private void LoadText() {
@@ -85,6 +87,9 @@ public class Player : MonoBehaviour {
                 ShowButtons();
             } else {
                 mouthScript.SayText(c);
+                if(c=='x') {
+                     yield return new WaitForSeconds(1f);
+                }
                 yield return new WaitForSeconds(0.08f);
             }
         }           
