@@ -15,8 +15,11 @@ public class Player : MonoBehaviour {
     private GameObject eyes;
     private Eyes eyesScript;
 
-    public string pathText = "test.txt";
-    public string pathButtons = "Buttons01.txt";
+
+    public TextAsset textFile;
+    public TextAsset buttonFile;
+    public Text log;
+
     private string[] textsGuide;
     private string[] buttonsGuide;
     private string[] audioGuide;
@@ -37,21 +40,15 @@ public class Player : MonoBehaviour {
         LoadButtons();
         HideAllButtons();
 
-        NextStep(0);
+   
     }
 
     private void LoadText() {
-        StreamReader reader = new StreamReader("Assets/Texts/"+pathText);
-        string file = reader.ReadToEnd();
-        reader.Close();
-        textsGuide = file.Split(new string[] { ";" }, StringSplitOptions.None);   
+        textsGuide = textFile.text.Split(new string[] { ";" }, StringSplitOptions.None);   
     }
 
     private void LoadButtons() {
-        StreamReader reader = new StreamReader("Assets/Buttons/"+pathButtons);
-        string file = reader.ReadToEnd();
-        reader.Close();
-        buttonsGuide = file.Split(new string[] { ";" }, StringSplitOptions.None);
+        buttonsGuide = buttonFile.text.Split(new string[] { ";" }, StringSplitOptions.None);
     }
 
     private void HideAllButtons() {
@@ -73,9 +70,19 @@ public class Player : MonoBehaviour {
     public void NextStep(int newstep) {
             step = newstep;
             StartCoroutine(Control(textsGuide[step]));
-            audioSource.clip = audioClips[step];
-            audioSource.Play(0);
+            log.text = textsGuide[step];
             HideAllButtons();
+    }
+
+    public void NextStep() {
+            step++;
+            StartCoroutine(Control(textsGuide[step]));
+            log.text = textsGuide[step];
+            HideAllButtons();
+    }
+
+    public void RepeatStep() {
+            log.text = "Ah muleke vai sim! FALA SIMMM";
     }
      IEnumerator Control(string s) {
         foreach (char c in s) {
@@ -85,6 +92,9 @@ public class Player : MonoBehaviour {
                 eyesScript.BlinkEyes(c);
             } else if (c=='!') {
                 ShowButtons();
+            } else if (c=='#') {
+                audioSource.clip = audioClips[step];
+                audioSource.Play(0);
             } else {
                 mouthScript.SayText(c);
                 if(c=='x') {

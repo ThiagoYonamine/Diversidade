@@ -1,0 +1,16 @@
+Dictionary
+Body
+0: Idle
+1: Hello
+2: Walk
+
+
+Eyes
+(: Open 
+): Close
+
+Mouth
+a,e,i,o,u: automatically
+
+Sound:
+#: Play Sound
