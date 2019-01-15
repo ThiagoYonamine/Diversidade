@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300010, guid: 758197875da862f4a91ef17b518f93e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -348,6 +348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3400214771439880645}
   - component: {fileID: 1660284408000762130}
+  - component: {fileID: 1689419364}
   m_Layer: 0
   m_Name: personagem1
   m_TagString: Untagged
@@ -364,7 +365,7 @@ Transform:
   m_GameObject: {fileID: 5972283675122629053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.26, y: -1.8960487, z: 0.047851562}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.77208, y: 0.772, z: 0.77208}
   m_Children:
   - {fileID: 3124816055432896029}
   - {fileID: 5739632551276463267}
@@ -384,10 +385,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d041c806e840d4a8199bee5900c9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathText: test.txt
-  pathButtons: Buttons01.txt
+  textFile: {fileID: 4900000, guid: 30af8938238d9b643a2ab77588902515, type: 3}
+  buttonFile: {fileID: 4900000, guid: eb079a7a6ebc3ea4b850ea65c1bd69c3, type: 3}
+  log: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: f5ee0346bfac6224f89bc01b558a973a, type: 3}
-  - {fileID: 8300000, guid: 745675dc7083e0845b5b3fa2a3bc2555, type: 3}
+  - {fileID: 8300000, guid: f5ee0346bfac6224f89bc01b558a973a, type: 3}
   audioSource: {fileID: 0}
   buttons: {fileID: 0}
+--- !u!95 &1689419364
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972283675122629053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b1fe53547261834dbb7cf87d3d88477, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

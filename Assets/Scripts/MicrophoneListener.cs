@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
  public class MicrophoneListener : MonoBehaviour {
     Button btn;
+    public string returnName;
 	// Use this for initialization
 	void Start () {
        
@@ -16,7 +17,7 @@ using UnityEngine.UI;
 
         // Pass the name of the game object which has the onActivityResult(string recognizedText) attached to it.
         // The speech recognizer intent will return the string result to onActivityResult method of "Main Camera"
-        pluginClass.CallStatic("setReturnObject", "SpeechText");
+        pluginClass.CallStatic("setReturnObject", returnName);
         Debug.Log("Return Object Set");
 
 
@@ -30,7 +31,7 @@ using UnityEngine.UI;
         Debug.Log("Max Results Set");
 
         // The following line sets the question which appears on intent over the microphone icon
-        pluginClass.CallStatic("changeQuestion", "Hello, How can I help you???");
+        pluginClass.CallStatic("changeQuestion", "Fale no microfone");
         Debug.Log("Question Set");
 
 

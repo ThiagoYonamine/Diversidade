@@ -1,4 +1,4 @@
-Oi o meu nome é Bia. e o seu?
+Oi o meu nome é Bia. e  qual o seu nome?
 Micro:
 Puxa que nome mais bonitoo!!
 Quantos anos voce tem?
@@ -14,17 +14,23 @@ sim: Ebaaaa! então vamos!
 nao: naooo!?? Mas eu preciso da sua ajuda! por favor! 
 else: me desculpe eu não escutei direto, pode repetir?
 
-Para chegar no parque temos que seguir esse mapa,
-primeiro temos que atravessar o rio, depois vamos escola, e depois vamos brincar no parque.
-Rio, escola e parque. entendeu? repita comigo
-Rio, escola e parque!.
+//Para chegar no parque temos que seguir esse mapa,
+//primeiro temos que atravessar o rio, depois vamos escola, e depois vamos brincar no parque.
+//Rio, escola e parque. entendeu? repita comigo
+//Rio, escola e parque!.
 
-isso mesmo!! você é muito esperto, ainda bem que voce vai me ajudar!
+//isso mesmo!! você é muito esperto, ainda bem que voce vai me ajudar!
 
 Andando:
-hoje vai ser um dia muito legal!
+aii meu deuss eu estou muito feliz
+e ansiosa para rever meus amigos, 
+hoje vamos nos divertir muito! vai ser um dia muito legal! 
 
 Rio:
-Estamos chegando no rio! voce quer atravessar pela ponte ou com um bote?
+Olhaa! estamos chegando no rio! aqui tem uma placa
+voce quer atravessar pela ponte ou com a canoa?
+*botoes
+
+Muito bem, otima escolha
 
 bote indiozinho
