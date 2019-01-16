@@ -69,6 +69,7 @@ public class Player : MonoBehaviour {
 
     public void NextStep(int newstep) {
             step = newstep;
+            Debug.Log("GOTO: " + step);
             StartCoroutine(Control(textsGuide[step]));
             log.text = textsGuide[step];
             HideAllButtons();
@@ -84,9 +85,23 @@ public class Player : MonoBehaviour {
     public void RepeatStep() {
             log.text = "Ah muleke vai sim! FALA SIMMM";
     }
+
+    private int getJump(string s){
+        Debug.Log("JUMP: " + s);
+        for(int i=0;i<s.Length;i++) {
+            if(s[i]!=']') continue;
+            else return int.Parse(s.Substring(1,i-1).ToString());
+        }
+        return 0;
+    }
      IEnumerator Control(string s) {
-        foreach (char c in s) {
-            if((int)c >= (int)'0' && (int)c <= (int)'9'){
+        
+        for(int i=0;i<s.Length;i++) {
+            char c = s[i];
+            if (c=='[') {
+                NextStep( getJump(s.Substring(i)));
+                yield return 0;
+            } else if((int)c >= (int)'0' && (int)c <= (int)'9'){
                 bodyScript.Move(c);
             } else if (c=='(' || c==')') {
                 eyesScript.BlinkEyes(c);
