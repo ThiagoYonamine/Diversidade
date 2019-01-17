@@ -102,8 +102,13 @@ public class Player : MonoBehaviour {
                 NextStep( getJump(s.Substring(i)));
                 yield return 0;
             } else if((int)c >= (int)'0' && (int)c <= (int)'9'){
+                if (c == '3') {
+                    eyesScript.BlinkEyes('.');
+                    mouthScript.SayText('.');
+                } 
+                
                 bodyScript.Move(c);
-            } else if (c=='(' || c==')') {
+            } else if (c=='(' || c==')' || c=='?') {
                 eyesScript.BlinkEyes(c);
             } else if (c=='!') {
                 ShowButtons();

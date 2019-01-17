@@ -1,13 +1,20 @@
 fileFormatVersion: 2
-guid: 758197875da862f4a91ef17b518f93e6
+guid: bee247a4c23edb04987b2ea8b6f264fc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Bocas_0
-    21300002: Bocas_1
-    21300004: Bocas_2
-    21300006: Bocas_3
-    21300008: Bocas_4
-    21300010: Bocas_5
+    21300000: P3 more_0
+    21300002: P3 more_1
+    21300004: P3 more_2
+    21300006: P3 more_3
+    21300008: P3 more_4
+    21300010: P3 more_5
+    21300012: P3 more_6
+    21300014: P3 more_7
+    21300016: P3 more_8
+    21300018: P3 more_9
+    21300020: P3 more_10
+    21300022: P3 more_11
+    21300024: P3 more_12
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -123,13 +130,93 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bocas_0
+      name: P3 more_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 702
+        width: 213
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14ee757aadf28140b76c4dcd698c654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 704
+        width: 183
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede1e308f45e67c49b6d9545c72771c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 698
+        width: 155
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05bcbdfb2f19648b6fddb7c2341f6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 700
+        width: 128
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd79d52ee414feb43935efb855a8f960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 27
-        height: 11
+        y: 368
+        width: 130
+        height: 278
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,19 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1a3166a673b8c547b6bfae91d9c2278
+      spriteID: ab1588c123bb50847820f8976dac0ccb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bocas_1
+      name: P3 more_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 9
-        width: 27
-        height: 7
+        x: 186
+        y: 367
+        width: 145
+        height: 278
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,19 +244,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9628bee7dedb949b76f8e7a8318c3f
+      spriteID: a48bc076db405524fb57f859840d4260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bocas_2
+      name: P3 more_6
       rect:
         serializedVersion: 2
-        x: 261
-        y: 8
-        width: 16
-        height: 8
+        x: 351
+        y: 375
+        width: 171
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,19 +264,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c546b533477d7024286ca26efe3b3888
+      spriteID: 7df0a8e3785a6eb4f86265dcfa6933cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bocas_3
+      name: P3 more_7
       rect:
         serializedVersion: 2
-        x: 391
-        y: 8
-        width: 10
-        height: 9
+        x: 548
+        y: 370
+        width: 164
+        height: 276
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,19 +284,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed6b3e02cd2be044686e2964c9be39ab
+      spriteID: e14603635f3368d4aa4d8e15308879e5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bocas_4
+      name: P3 more_8
       rect:
         serializedVersion: 2
-        x: 499
-        y: 8
-        width: 8
-        height: 9
+        x: 746
+        y: 366
+        width: 131
+        height: 280
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,19 +304,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2b245da3d317144a08a0c5a84a9e13
+      spriteID: 3e12b43aedbe070499d1c65e415d0b7b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bocas_5
+      name: P3 more_9
       rect:
         serializedVersion: 2
-        x: 622
-        y: 10
-        width: 15
-        height: 7
+        x: 127
+        y: 0
+        width: 196
+        height: 295
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,7 +324,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f98d8fc5e6ec844088f112ccc4e1444
+      spriteID: 340059c1bde9d8841b8b6dd2e04456ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 110
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3737693b2a44f349b5060706f3f18fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 110
+        height: 295
+      alignment: 9
+      pivot: {x: 0.4320085, y: 0.76816714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eea4e6cf123b1944a3312fe7aa72b25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P3 more_12
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 110
+        height: 294
+      alignment: 9
+      pivot: {x: 0.44084418, y: 0.7733338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f8860c7a379d34ebdcee40a7b93bf1
       vertices: []
       indices: 
       edges: []
@@ -245,7 +392,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a3013c946907cdc4cb2e0105c9dceec4
+    spriteID: 26009fbe2a5a95e4590adfdc45778637
     vertices: []
     indices: 
     edges: []

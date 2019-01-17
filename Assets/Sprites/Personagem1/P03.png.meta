@@ -17,6 +17,7 @@ TextureImporter:
     21300024: P03_12
     21300026: P03_13
     21300028: P03_14
+    21300030: P03_15
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -427,6 +428,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9f328100133a90b4cb2be49ee1ee4362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 720
+        width: 47
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5106383, y: 0.34210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839091cafadd10d4caeb71be4ce9e632
       vertices: []
       indices: 
       edges: []
