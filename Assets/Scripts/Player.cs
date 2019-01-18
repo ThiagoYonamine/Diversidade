@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System;
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour {
 
     private GameObject mouth;
@@ -88,11 +89,18 @@ public class Player : MonoBehaviour {
 
     private int getJump(string s){
         Debug.Log("JUMP: " + s);
-        for(int i=0;i<s.Length;i++) {
+        bool isScene = false;
+        if(s[1]=='S') isScene = true;
+        for(int i=2;i<s.Length;i++) {
             if(s[i]!=']') continue;
-            else return int.Parse(s.Substring(1,i-1).ToString());
+            if (isScene) { 
+                SceneManager.LoadScene(s.Substring(2,i-2).ToString(), LoadSceneMode.Single);
+                return 0;
+            } else {
+                return int.Parse(s.Substring(2, i-2).ToString());
+            }
         }
-        return 0;
+            return 0;  
     }
      IEnumerator Control(string s) {
         
