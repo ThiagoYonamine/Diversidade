@@ -27,6 +27,7 @@ public class Player : MonoBehaviour {
     public AudioClip[] audioClips;
     public AudioSource audioSource;
     private int step;
+    Coroutine coroutine;
 
     public GameObject buttons;
     void Start() {
@@ -71,23 +72,12 @@ public class Player : MonoBehaviour {
     public void NextStep(int newstep) {
             step = newstep;
             Debug.Log("GOTO: " + step);
-            StartCoroutine(Control(textsGuide[step]));
+            coroutine = StartCoroutine(Control(textsGuide[step]));
             log.text = textsGuide[step];
             HideAllButtons();
     }
 
-    public void NextStep() {
-            step++;
-            StartCoroutine(Control(textsGuide[step]));
-            log.text = textsGuide[step];
-            HideAllButtons();
-    }
-
-    public void RepeatStep() {
-            log.text = "Ah muleke vai sim! FALA SIMMM";
-    }
-
-    private int getJump(string s){
+    private void getJump(string s){
         Debug.Log("JUMP: " + s);
         bool isScene = false;
         if(s[1]=='S') isScene = true;
@@ -95,20 +85,25 @@ public class Player : MonoBehaviour {
             if(s[i]!=']') continue;
             if (isScene) { 
                 SceneManager.LoadScene(s.Substring(2,i-2).ToString(), LoadSceneMode.Single);
-                return 0;
+                return;
             } else {
-                return int.Parse(s.Substring(2, i-2).ToString());
+                Debug.Log("JUMP: " + s.Substring(2, i-2).ToString());
+                NextStep(int.Parse(s.Substring(2, i-2).ToString()));
+                return;
             }
         }
-            return 0;  
+            return;  
     }
      IEnumerator Control(string s) {
         
         for(int i=0;i<s.Length;i++) {
             char c = s[i];
             if (c=='[') {
-                NextStep( getJump(s.Substring(i)));
+                StopCoroutine(coroutine);
+                getJump(s.Substring(i));
+                
                 yield return 0;
+               
             } else if((int)c >= (int)'0' && (int)c <= (int)'9'){
                 if (c == '3') {
                     eyesScript.BlinkEyes('.');
@@ -128,7 +123,7 @@ public class Player : MonoBehaviour {
                 if(c=='x') {
                      yield return new WaitForSeconds(1f);
                 }
-                yield return new WaitForSeconds(0.08f);
+                yield return new WaitForSeconds(0.07f);
             }
         }           
     }
