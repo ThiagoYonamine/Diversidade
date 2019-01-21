@@ -1,14 +1,14 @@
-(xxxx 2 xxx #1 ooiii o meu nome é Bia e qual o seu nome 4?a [L12];
-(0 #puxa que nome mais bonitooo)    
-(quantos anos voce tem H5!;
-(0 #A sua idade é menor que a minha eu ja tenho 5 anos[L5];
-(0 #Uauu nos temos nossas idades são iguais [L5]; 
-(0 #Nossa quantos anoss voce já tem sua idade é maior que a minha eu tenho apenas 5 anos [L5];
-(2 #Hoje eu e meus amigos vamos brincar no parque,1 mas antes temos que ir para a escola, vamos la !;
-(3x #Ebaaaa entao vamooos [L9];
-(0 #naooo mas eu preciso da sua ajuda    por favooooooor!;
-(0 #me desculpe eu não escutei direto  pode repetir [...];
-(2 #aaiii meu deuss xx eu estou muito feliz e ansiosa para rever meus amigos, hoje vamos nos divertir muito vai ser um dia muito legal 1 [L10];
-(0 #Olhaa estamos chegando no rio   aqui tem uma placa vamos atravessar pela ponte ou com a canoa!;
+(xxxx 2 xxx #1 ooiii o meu nome é Bia (H  )[L1];
+(#0qual o seu nome[L2];
+( )  ( !#Cliue o micofone e falenome bem eeeelto pra conseguir te ouvir) (;
+(H5 #uuaaauuu que nome mais bonitooo) ( H [L5];
+(hum eu não ouvi direito, você pode repetir) (!;  
+(#quantos anos voce tem ?4!;
+(0 #a sua idade é menor que a minha eu ja tenho cinco anosx [L9];
+(0 #olha nossas idades são iguaisx [L9]; 
+(0 #a sua idade é maioooooor que minha eu tenho apenas cinco anosx [L9];
+(0 #hoje meus amigos vamos brincar no parque da escola seria muuuuuito legal se você fosse vamos la [L10];
+(2 #para chegar na escola temos que atravear um rio voce quer atraesar pela ponte ou a canoa  [L11];
+( 0!#clique na placa da pote a canoa para ecoler ocamino o?4 ;
 (0 #Muito bem, otima escolha [L13];
 [S01-Indio];

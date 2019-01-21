@@ -15,8 +15,10 @@ public class ReceiveResult : MonoBehaviour {
         string[] result = recognizedText.Split(delimiterChars);
 
         int size = resultDic.Length;
+        Debug.Log("RESULT: " + result[0]);
         for(int i=0 ; i<size ; i++){
-            if(result[0] == resultDic[i]) {       
+            if(result[0] == resultDic[i]) {  
+                 Debug.Log("RESULT: " + result[0] + "Dic: " + resultDic[i] + "Step: " + i);     
                 player.GetComponent<Player>().NextStep(steps[i]);
                 return;
             }
