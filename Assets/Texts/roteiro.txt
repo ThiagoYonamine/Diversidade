@@ -3,12 +3,12 @@ Micro:
 Puxa que nome mais bonitoo!!
 Quantos anos voce tem?
 micro:
-1-10: Puxa XX anos!! que legal!
-10+: Nossa! quantos anoss voce já tem!!
+<: A sua idade é menor que a minha eu tenho ja 5 anos!;
+=: Uauu nossas idades são iguais!;
+>: Nossa! quantos anoss voce já tem!! sua idade é maior que a minha eu tenho apenas 5 anos!;
 
-Eu tenho apenas 5 anos
 Hoje vou no meu primeiro dia na escola e depois e eu meus amigos vamos brincar no parque,
- mas antes temos que chegar la, voce me ajuda??
+mas antes temos que chegar la, voce me ajuda??
 micro:
 sim: Ebaaaa! então vamos!
 nao: naooo!?? Mas eu preciso da sua ajuda! por favor! 
