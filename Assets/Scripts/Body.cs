@@ -11,6 +11,7 @@ public class Body : MonoBehaviour {
     private int body_jump;
     private int body_question;
     private int body_idea;
+    private int[] body_count = new int[10];
     void Start() {
         animator = this.GetComponent<Animator> ();
         body_idle = Animator.StringToHash(spriteName + "_body_idle");
@@ -19,34 +20,71 @@ public class Body : MonoBehaviour {
         body_jump = Animator.StringToHash(spriteName + "_body_jump");
         body_question  = Animator.StringToHash(spriteName + "_body_question");
         body_idea  = Animator.StringToHash(spriteName + "_body_idea");
+        for(int i=0;i<9;i++){
+             body_count[i] = Animator.StringToHash(spriteName + "_C0" + (i+1).ToString());
+        }
+        body_count[9] = Animator.StringToHash(spriteName + "_C10");
+
+
     }
     public void MoveUI(){
             Vector3 walk_distance = new Vector3(0.2f,0,0);
             this.transform.parent.transform.position += walk_distance;
     }
 
-    public void Move(char c) {
+    public void Move(string c) {
+            Debug.Log("MOV: " + c);
             switch (c){
-                case '0':
+                case "00":
                     animator.Play(body_idle);
                     break;
-                case '1':
+                case "01":
                     animator.Play(body_Hello);
                     break;
-                case '2':
+                case "02":
                     animator.Play(body_walk);
                     break;
-                case '3':
+                case "03":
                     animator.Play(body_jump);
                     break;
-                case '4':
+                case "04":
                     animator.Play(body_question);
                     break;
-                case '5':
+                case "05":
                     animator.Play(body_idea);
                     break;
+
+                case "C1":
+                    animator.Play(body_count[0]);
+                    break;
+                case "C2":
+                    animator.Play(body_count[1]);
+                    break;
+                case "C3":
+                    animator.Play(body_count[2]);
+                    break;
+                case "C4":
+                    animator.Play(body_count[3]);
+                    break;
+                case "C5":
+                    animator.Play(body_count[4]);
+                    break;
+                case "C6":
+                    animator.Play(body_count[5]);
+                    break;
+                case "C7":
+                    animator.Play(body_count[6]);
+                    break;
+                case "C8":
+                    animator.Play(body_count[7]);
+                    break;
+                case "C9":
+                    animator.Play(body_count[8]);
+                    break;
+                case "10":
+                    animator.Play(body_count[9]);
+                    break;
                 default:
-                   
                     break;
             }    
     }

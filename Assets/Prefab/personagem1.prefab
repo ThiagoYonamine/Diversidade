@@ -295,7 +295,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300012, guid: 7f9e0653a7a99bc4b9e6a02bc7a6938b, type: 3}
+  m_Sprite: {fileID: 21300030, guid: 7f9e0653a7a99bc4b9e6a02bc7a6938b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -389,8 +389,19 @@ MonoBehaviour:
   buttonFile: {fileID: 4900000, guid: eb079a7a6ebc3ea4b850ea65c1bd69c3, type: 3}
   log: {fileID: 0}
   audioClips:
-  - {fileID: 8300000, guid: f5ee0346bfac6224f89bc01b558a973a, type: 3}
-  - {fileID: 8300000, guid: f5ee0346bfac6224f89bc01b558a973a, type: 3}
+  - {fileID: 8300000, guid: 826edc9e936ded54fa5b2a243032d305, type: 3}
+  - {fileID: 8300000, guid: 941cb9c7e0105c0408c310aaa4d672cd, type: 3}
+  - {fileID: 8300000, guid: c2b114585743f3b43af74a643540e2f1, type: 3}
+  - {fileID: 8300000, guid: 1866020c534108847959dabcb1648a8e, type: 3}
+  - {fileID: 8300000, guid: 0967c004d954a654c84e059d8b5a05b9, type: 3}
+  - {fileID: 8300000, guid: 4525207f29deb1742828b87aba477ab4, type: 3}
+  - {fileID: 8300000, guid: 2ff501686df0e7642b9d45e4c809f229, type: 3}
+  - {fileID: 8300000, guid: bc9333b32647e3645bf2a2ff9dd8fe9b, type: 3}
+  - {fileID: 8300000, guid: f885b710e514681438938ce3e6614ebc, type: 3}
+  - {fileID: 8300000, guid: 37155956da74e164f890cf7553f7b0e6, type: 3}
+  - {fileID: 8300000, guid: 4a0e13b38035f984aa21b208eadb68ea, type: 3}
+  - {fileID: 8300000, guid: 10f64201aa4fa6949a2466a7250c6967, type: 3}
+  - {fileID: 8300000, guid: 8ec87ead9fec1d040bf9408933455c0f, type: 3}
   audioSource: {fileID: 0}
   buttons: {fileID: 0}
 --- !u!95 &1689419364

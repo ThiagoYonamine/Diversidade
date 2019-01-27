@@ -41,8 +41,8 @@ public class Player : MonoBehaviour {
         LoadText();
         LoadButtons();
         HideAllButtons();
+        StartCoroutine(InitGame());
 
-   
     }
 
     private void LoadText() {
@@ -73,7 +73,7 @@ public class Player : MonoBehaviour {
             step = newstep;
             Debug.Log("GOTO: " + step);
             coroutine = StartCoroutine(Control(textsGuide[step]));
-            log.text = textsGuide[step];
+           // log.text = textsGuide[step];
             HideAllButtons();
     }
 
@@ -94,23 +94,27 @@ public class Player : MonoBehaviour {
         }
             return;  
     }
+     IEnumerator InitGame() {
+         yield return new WaitForSeconds(1f);
+         NextStep(0);
+    }
      IEnumerator Control(string s) {
-        
+       
         for(int i=0;i<s.Length;i++) {
+            bool needStop = true;
             char c = s[i];
             if (c=='[') {
                 StopCoroutine(coroutine);
                 getJump(s.Substring(i));
-                
                 yield return 0;
-               
-            } else if((int)c >= (int)'0' && (int)c <= (int)'9'){
-                if (c == '3') {
+            } else if(c=='M') {
+                string movement = s.Substring(i+1,2);
+                if (movement == "03") {
                     eyesScript.BlinkEyes('.');
                     mouthScript.SayText('.');
                 } 
-                
-                bodyScript.Move(c);
+                needStop = false;
+                bodyScript.Move(movement);
             } else if (c=='(' || c==')' || c=='?') {
                 eyesScript.BlinkEyes(c);
             } else if (c=='!') {
@@ -122,8 +126,9 @@ public class Player : MonoBehaviour {
                 mouthScript.SayText(c);
                 if(c=='x') {
                      yield return new WaitForSeconds(1f);
+                } else if (!(c >= '0' && c <= '9')) {
+                    yield return new WaitForSeconds(0.07f);
                 }
-                yield return new WaitForSeconds(0.07f);
             }
         }           
     }

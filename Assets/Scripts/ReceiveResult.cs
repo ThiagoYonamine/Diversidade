@@ -17,7 +17,7 @@ public class ReceiveResult : MonoBehaviour {
         int size = resultDic.Length;
         Debug.Log("RESULT: " + result[0]);
         for(int i=0 ; i<size ; i++){
-            if(result[0] == resultDic[i]) {  
+            if(result[0] == resultDic[i] || resultDic[i]== "true" ) {  
                  Debug.Log("RESULT: " + result[0] + "Dic: " + resultDic[i] + "Step: " + i);     
                 player.GetComponent<Player>().NextStep(steps[i]);
                 return;

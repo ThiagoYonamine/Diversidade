@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1569320098
+--- !u!1 &1092802498
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,24 +120,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1569320100}
-  - component: {fileID: 1569320099}
+  - component: {fileID: 1092802500}
+  - component: {fileID: 1092802499}
   m_Layer: 0
-  m_Name: Indiozinhos - Bob Zoom - Video Infantil Musical Oficial
+  m_Name: animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!328 &1569320099
+--- !u!328 &1092802499
 VideoPlayer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569320098}
+  m_GameObject: {fileID: 1092802498}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6bba2d65fb0d19742bd1508d641f17fd, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: acc2d82f71edca14a893e7d6ba651f1c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2081372081}
@@ -163,13 +163,13 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
---- !u!4 &1569320100
+--- !u!4 &1092802500
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569320098}
+  m_GameObject: {fileID: 1092802498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -272,4 +272,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a641905921f6840ac1a5f9b9881627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vid: {fileID: 1569320099}
+  vid: {fileID: 0}
