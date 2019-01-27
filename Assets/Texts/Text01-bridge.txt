@@ -1,4 +1,4 @@
 ( # iii a ponte esta quebrada. voce pode me ajudar a arrumar a ponte para arrumar a ponte temos que contar quantas madeiras estao quebradas [L1];
-( # conte quantas madeiras estão faltando na ponte e quantas madeiras estao empilhadas. clique no numero certo de madeiras !;
+( # conte quantas madeiras estão faltando na ponte e quantas madeiras estao empilhadas. !clique no numero certo de madeiras;
 ( #M03x voce conseguiu muito obrigada. sempre que vc puder ajude as pessoas;
 ( # huum nao deu certo. tente mais uma vez !;

@@ -10,5 +10,7 @@
 (M00 #hoje meus amigos vamos brincar no parque da escola seria muuuuuito legal se você fosse vamos la [L10];
 (M02 #para chegar na escola temos que atravear um rio voce quer atraesar pela ponte ou a canoa  [L11];
 (M00!#clique na placa da pote a canoa para ecoler ocamino o?M04 ;
-(M00 #muito bem, otima escolha [L13];
+(M00 #muito bem, otima escolha [L14];
+(M00 #muito bem, otima escolha [L15];
+[S01-bridge];
 [S01-boat];

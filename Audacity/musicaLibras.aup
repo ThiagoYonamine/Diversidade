@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="musicaLibras_data" version="1.3.0" audacityversion="2.3.0" sel0="17.1530558899" sel1="17.1530558899" vpos="0" h="0.0000000000" zoom="36.2034615864" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="comment" value="Msica dos nmeros, aprendendo a contar de 1 a 10  com o Patinho Tuga!  INSCREVA-SE: https://www.youtube.com/c/patinhotuga  Redes sociais  Facebook: https://www.facebook.com/patinhotuga  Instagram: http://www.instagram.com/patinhotuga  Site Oficial: http://www.patinhotuga.com.br  link: https://www.youtube.com/watch?v=E1NdKFebLrk  A msica dos nmeros (LETRA)  O patinho tuga j chegou e trouxe toda turma pra contar     1  2  3   pra l     1  2  3   pra c  e agora todos juntos vo contar  1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10"/>
+		<tag name="purl" value="https://www.youtube.com/watch?v=E1NdKFebLrk"/>
+		<tag name="description" value="Msica dos nmeros, aprendendo a contar de 1 a 10  com o Patinho Tuga!  INSCREVA-SE: https://www.youtube.com/c/patinhotuga  Redes sociais  Facebook: https://www.facebook.com/patinhotuga  Instagram: http://www.instagram.com/patinhotuga  Site Oficial: http://www.patinhotuga.com.br  link: https://www.youtube.com/watch?v=E1NdKFebLrk  A msica dos nmeros (LETRA)  O patinho tuga j chegou e trouxe toda turma pra contar     1  2  3   pra l     1  2  3   pra c  e agora todos juntos vo contar  1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10 1  2  3  4  5  6  7  8  9  10"/>
+		<tag name="ARTIST" value="Patinho Tuga"/>
+		<tag name="TITLE" value="A msica dos nmeros (contando de 1 a 10) - Patinho Tuga"/>
+		<tag name="Software" value="Lavf57.56.101"/>
+		<tag name="YEAR" value="20150528"/>
+	</tags>
+	<wavetrack name="a-musica-dos-numeros-contando-de-1-a-10-patinho-tuga" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="642369">
+				<waveblock start="0">
+					<simpleblockfile filename="e080860b.au" len="134377" min="-1.072272" max="1.12287" rms="0.267303"/>
+				</waveblock>
+				<waveblock start="134377">
+					<simpleblockfile filename="e08087e3.au" len="262144" min="-1.077168" max="1.053339" rms="0.286212"/>
+				</waveblock>
+				<waveblock start="396521">
+					<simpleblockfile filename="e0808f0f.au" len="245848" min="-1.069787" max="1.063507" rms="0.248432"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="a-musica-dos-numeros-contando-de-1-a-10-patinho-tuga" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="642369">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808ccb.au" len="134377" min="-1.055274" max="1.04441" rms="0.255098"/>
+				</waveblock>
+				<waveblock start="134377">
+					<simpleblockfile filename="e0808540.au" len="262144" min="-1.110359" max="1.051897" rms="0.268748"/>
+				</waveblock>
+				<waveblock start="396521">
+					<simpleblockfile filename="e0808daa.au" len="245848" min="-1.064578" max="1.031291" rms="0.229998"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

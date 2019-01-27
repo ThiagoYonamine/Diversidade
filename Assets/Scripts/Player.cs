@@ -123,10 +123,11 @@ public class Player : MonoBehaviour {
                 audioSource.clip = audioClips[step];
                 audioSource.Play(0);
             } else {
-                mouthScript.SayText(c);
+               
                 if(c=='x') {
                      yield return new WaitForSeconds(1f);
                 } else if (!(c >= '0' && c <= '9')) {
+                    mouthScript.SayText(c);
                     yield return new WaitForSeconds(0.07f);
                 }
             }

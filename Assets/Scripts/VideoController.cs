@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
  
 public class VideoController : MonoBehaviour {
 public VideoPlayer vid;
- 
+public string scene; 
  
 void Start(){vid.loopPointReached += CheckOver;}
  
     void CheckOver(UnityEngine.Video.VideoPlayer vp) {
         vid.enabled = false;
-        SceneManager.LoadScene("01-Apresentacao" , LoadSceneMode.Single);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
  
 }
