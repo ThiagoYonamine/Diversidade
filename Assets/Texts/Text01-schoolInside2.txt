@@ -1,0 +1,4 @@
+( # Uhuuul agora vamos brincar no parque [L1];
+( # MC1 Clique na porta azul para sair da sala e ir para o corredor !;
+( # Vamos lá [L3];
+[S01-Corredor1];
