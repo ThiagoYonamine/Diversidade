@@ -1,0 +1,2 @@
+( # M02 Clique na porta azul para subir a escada e ir ao parque M00 !;
+[S01-Parque];

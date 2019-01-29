@@ -1,1 +1,2 @@
-(#eM10eeeaa M02 nos chegamos e eu consigo ouvir o sino da escola  M01 vamos  voce vai gostar muito dos meus amigos e eu tenho certeza que eles vao gostar de voce tambem;
+(#eM10eeeaa M02 nos chegamos e eu consigo ouvir o sino da escola  M01 vamos  voce vai gostar muito dos meus amigos e eu tenho certeza que eles vao gostar de voce tambem[L1];
+[S01-SchoolInside];

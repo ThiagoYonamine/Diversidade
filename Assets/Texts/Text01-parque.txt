@@ -1,0 +1,8 @@
+( # a brincadeira que a gente mais gosta e esconde-esconde [L1];
+( # quem quer brincar de esconde-esconde poe o dedo aqui que ja vai fechar e nao vai abrir [L2]; 
+( # vamos ver quantos amiguinhos vao brincar com a gente [L3];
+( #um dois tres quatro cinco seis. huum esta faltando um amiguinho, o que voce quer fazer procurar o amiguinho ou continuar brincando !;
+( # poxa, brincar sem o rafa nao vai ser legal e o rafa vai ficar triste. nao podemos deixar nossos amigos tristes [L6].
+( #uhuul [L6];
+( # e muito melhor quando brincamos todos juntos. vamos procura-lo [L7];
+[S01-escadaCaio];

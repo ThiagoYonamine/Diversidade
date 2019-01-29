@@ -12,5 +12,5 @@
 (M00!#clique na placa da pote a canoa para ecoler ocamino o?M04 ;
 (M00 #muito bem, otima escolha [L14];
 (M00 #muito bem, otima escolha [L15];
-[S01-bridge];
-[S01-boat];
+[S01-Bridge];
+[S01-HistoriaIndio];
