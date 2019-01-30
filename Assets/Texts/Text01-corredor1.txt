@@ -1,3 +1,3 @@
-(# M02 Estou muito feliz. Estamos quase chegando [L1];
+(# M02 Estou muito feliz M10 Estamos quase chegando M02 [L1];
 ( # Clique na porta azul para sair do corredor e  ir para a escada M00!;
 [S01-Escada];

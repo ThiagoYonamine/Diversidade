@@ -101,7 +101,6 @@ public class Player : MonoBehaviour {
      IEnumerator Control(string s) {
        
         for(int i=0;i<s.Length;i++) {
-            bool needStop = true;
             char c = s[i];
             if (c=='[') {
                 StopCoroutine(coroutine);
@@ -113,7 +112,6 @@ public class Player : MonoBehaviour {
                     eyesScript.BlinkEyes('.');
                     mouthScript.SayText('.');
                 } 
-                needStop = false;
                 bodyScript.Move(movement);
             } else if (c=='(' || c==')' || c=='?') {
                 eyesScript.BlinkEyes(c);
@@ -123,7 +121,6 @@ public class Player : MonoBehaviour {
                 audioSource.clip = audioClips[step];
                 audioSource.Play(0);
             } else {
-               
                 if(c=='x') {
                      yield return new WaitForSeconds(1f);
                 } else if (!(c >= '0' && c <= '9')) {

@@ -1,6 +1,7 @@
 ( # oi bia nao consegui subir a escada [L1];
-( # nao se preocupe rafa, nos vamos te ajudar[L2];
-( # nossa escola precisa acolher crianças de diferentes necessidades para que todas tenham uma boa educacao. existem pessoas que nao conseguem ouvir, falar, ver ou andar e todas elas tem o direito de brincar, estudar, trabalhar e viver bem. a acessibilidade garante a inclusao social e uma boa qualidade de vida para todas essas pessoas. voce sabe como podemos ter acessibilidade. vagas reservadas para deficientes, rampas de acesso, calcadas com sinalizacoes e muito mais. agora que voce ja sabe o que e acessibilidade, vamos deixar o caminho acessivel para o rafa[L3];
+( # nao se preocupe rafa nos vamos te ajudar [L2];
+( # rafa [L3];
 ( # clique e arraste os blocos para construir uma rampa !;
-( # ebaaa voce conseguiu[L5];
-( # vem rafa, vamos brincar de esconde-esconde;	
+( # M03xxx voce conseguiu [L5];
+( # vem rafa, vamos brincar de esconde-esconde [L6];
+[S01-Parque2];
