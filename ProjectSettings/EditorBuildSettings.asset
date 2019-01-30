@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/01-HistoriaIndio.unity
     guid: 40e7bf533bfb4864a976b8e62b6916cb
   - enabled: 1
+    path: Assets/Scenes/01-Diversidade.unity
+    guid: 9b12af4597eb44b4c909647d959fbe0a
+  - enabled: 1
     path: Assets/Scenes/01-Boat.unity
     guid: 88d98e9245e44c74ea8ea2eae6b40cf4
   - enabled: 1
