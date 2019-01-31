@@ -1,5 +1,4 @@
-( #M02 esses sao os meus amigosM00, a ana, o rafa e o dudu[L1];
-( # nos sempre brincamos juntos, temos respeito e educacao, por isso somos muito amigos e nunca brigamos[L2];
-( # Agora vamos ter aula com a professora eliana. ah eu adoro as aulas dela[L3];
+( #M02 esses sao os meus amigos M00 a aaana o raaaaafa e o duuudduuu [L1];
+( # nos sempre brinaaamos juuntoo teemos reespeiito e educacaooo por isso somos muuuito aaiiiigos e nuuuncaa briigaaamoooos  H [L2];
+( # Agora vamos ter aula com a profeesoora eliana aaaa eu adoro as aulas delaaa  H [L3];
 x;
-[S01-Diversidade]

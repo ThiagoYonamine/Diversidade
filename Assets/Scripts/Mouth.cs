@@ -12,6 +12,7 @@ public class Mouth : MonoBehaviour {
     private int boca_hide = Animator.StringToHash("boca_hide");
     private int boca_happy = Animator.StringToHash("boca_happy");
     private int boca_X = Animator.StringToHash("boca_X"); 
+    private int boca_HideALL = Animator.StringToHash("boca_HideALL"); 
 
     // Start is called before the first frame update
     void Start() {       
@@ -40,6 +41,9 @@ public class Mouth : MonoBehaviour {
                     break;
                 case '.':
                     animator.Play(boca_hide);
+                    break;
+                case 'Q':
+                    animator.Play(boca_HideALL);
                     break;
                 default:
                     animator.Play(boca_X);

@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2506, y: -96}
+  m_AnchoredPosition: {x: 1153, y: -124}
   m_SizeDelta: {x: 623.3, y: 987.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290117194
@@ -310,12 +310,12 @@ PrefabInstance:
         type: 3}
       propertyPath: audioClips.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 123d0217f87c18f4d81f8906ad199057, type: 3}
+      objectReference: {fileID: 8300000, guid: 6e87bd9a7752ccd42b6044a2209c307e, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 9708394948b90f24e99ddde5e6f13834, type: 3}
+      objectReference: {fileID: 8300000, guid: 4f4d26cb1fc98334c8b4ed019d9393f7, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[2]
