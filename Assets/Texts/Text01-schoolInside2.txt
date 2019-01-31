@@ -1,4 +1,4 @@
-( # Uhuuul agora vamos brincar no parque [L1];
-( # MC1 Clique na porta azul para sair da sala e ir para o corredor !;
-( # Vamos lá [L3];
+( # M10 Uuuuoooo agora vamos brincar no parque [L1];
+( # MC1 Clique na porta azul para sair da sala e ii para o coredor !;
+( # Vamos laaaa [L3];
 [S01-Corredor1];

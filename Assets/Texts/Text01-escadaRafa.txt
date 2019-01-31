@@ -1,6 +1,6 @@
-( # oi bia nao consegui subir a escada [L1];
+                                    [L1];
 ( # nao se preocupe rafa nos vamos te ajudar [L2];
-( # rafa [L3];
+( # agora que vc ja aprendeu sobre acessibilidade bla [L3]; 
 ( # clique e arraste os blocos para construir uma rampa !;
 ( # M03xxx voce conseguiu [L5];
 ( # vem rafa, vamos brincar de esconde-esconde [L6];
