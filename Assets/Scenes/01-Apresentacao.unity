@@ -587,8 +587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 546, y: -63}
-  m_SizeDelta: {x: 287.85, y: 84.6}
+  m_AnchoredPosition: {x: 478.2, y: 112.6}
+  m_SizeDelta: {x: 503.3, y: 225.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &450446278
 MonoBehaviour:
@@ -649,7 +649,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 12
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1155,8 +1155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539, y: -176}
-  m_SizeDelta: {x: 287.85, y: 84.6}
+  m_AnchoredPosition: {x: 478.2, y: -223}
+  m_SizeDelta: {x: 477.84, y: 226.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936395178
 MonoBehaviour:
@@ -1217,7 +1217,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1510,7 +1510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80, y: -451}
+  m_AnchoredPosition: {x: -23.000004, y: -318}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253869354
@@ -1603,7 +1603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.0990566, b: 0.0990566, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1664,7 +1664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86, y: -458}
+  m_AnchoredPosition: {x: -23, y: -318}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267225711
@@ -2195,7 +2195,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd71556c62b96ef449e6ba105a4ea41e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 862df778adcbe5e4ab855feab5bac83f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2417,10 +2417,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: personagem1
       objectReference: {fileID: 0}
+    - target: {fileID: 5972283675122629053, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
@@ -2447,6 +2452,36 @@ PrefabInstance:
       propertyPath: audioClips.Array.data[13]
       value: 
       objectReference: {fileID: 8300000, guid: 8ec87ead9fec1d040bf9408933455c0f, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[14]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ec87ead9fec1d040bf9408933455c0f, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: f885b710e514681438938ce3e6614ebc, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 72e90e344c0e4134ab5401e0b6fd0f7b, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 37155956da74e164f890cf7553f7b0e6, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4a0e13b38035f984aa21b208eadb68ea, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 10f64201aa4fa6949a2466a7250c6967, type: 3}
     - target: {fileID: 3400214771439880645, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: m_LocalPosition.x
