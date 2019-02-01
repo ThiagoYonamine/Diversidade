@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/01-SchoolInside.unity
     guid: b8e9ba39b11f51b44a23b624029924c2
   - enabled: 1
+    path: Assets/Scenes/01-Back.unity
+    guid: 41504b1cafe9f9343b305ac19e35afc0
+  - enabled: 1
     path: Assets/Scenes/01-Escada.unity
     guid: 02ecdbce0a61a4b4a9d9004ff255767e
   - enabled: 1
