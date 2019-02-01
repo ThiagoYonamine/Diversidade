@@ -12,7 +12,12 @@ void Start(){vid.loopPointReached += CheckOver;}
  
     void CheckOver(UnityEngine.Video.VideoPlayer vp) {
         vid.enabled = false;
-        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+
+        if (PlayerPrefs.HasKey("Choice02") ){
+            SceneManager.LoadScene("01-Fim", LoadSceneMode.Single);
+        } else {
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        }
     }
  
 }

@@ -27,9 +27,14 @@ public class Body : MonoBehaviour {
 
 
     }
-    public void MoveUI(){
+    public void MoveUI(int inverse = 0) {
             Vector3 walk_distance = new Vector3(0.2f,0,0);
-            this.transform.parent.transform.position += walk_distance;
+            if(inverse == 0) {
+                this.transform.parent.transform.position += walk_distance;
+            } else {
+                this.transform.parent.transform.position -= walk_distance;
+            }
+
     }
 
     public void Move(string c) {

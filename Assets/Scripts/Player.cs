@@ -45,6 +45,13 @@ public class Player : MonoBehaviour {
 
     }
 
+    public int getStep(){
+        return step;
+    }
+
+    public void setFirstChoice(string v) {
+            PlayerPrefs.SetString("FirstChoice", v);
+    }
     private void LoadText() {
         textsGuide = textFile.text.Split(new string[] { ";" }, StringSplitOptions.None);   
     }
