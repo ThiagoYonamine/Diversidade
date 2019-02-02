@@ -1,6 +1,7 @@
                                     [L1];
 ( # nao se preocupe rafa nos vamos te ajudar [L2];
-( # agora que vc ja aprendeu sobre acessibilidade bla [L3]; 
+( # nossa escola precisa acolher crianças de diferentes necessidades para que todas tenham uma boa educacao. existem pessoas que nao conseguem ouvir, falar, ver ou andar e todas elas tem o direito de brincar estudar trabalhar e viver bem     voce sabe como podemos ter acessibilidade        vagas reservadas para deficientes  rampas de acesso calcadas com sinalizacoes e muito mais. agora que voce ja sabe o que e acessibilidade [L3] ;
+( # agora que vc ja aprendeu sobre acessibilidade bla [L4]; 
 ( # clique e arraste os blocos para construir uma rampa !;
 ( # M03xxx voce conseguiu [L5];
 ( # vem rafa, vamos brincar de esconde-esconde [L6];

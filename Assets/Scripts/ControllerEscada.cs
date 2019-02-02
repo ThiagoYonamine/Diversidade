@@ -29,7 +29,7 @@ public class ControllerEscada : MonoBehaviour {
 
 	void showFeedback(){
 		isCompleted= true;
-        personagem.GetComponent<Player>().NextStep(4);
+        personagem.GetComponent<Player>().NextStep(5);
 
 	}
 	
