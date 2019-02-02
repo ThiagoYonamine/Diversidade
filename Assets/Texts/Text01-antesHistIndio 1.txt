@@ -1,0 +1,2 @@
+(M02 #olaa os indioiinhos estao brincando na beira do rio [L1];
+[S01-HistoriaIndio];
