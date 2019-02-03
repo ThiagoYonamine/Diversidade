@@ -10,12 +10,7 @@ public class ControllerBack : MonoBehaviour
     void Start()
     {
            biaScript= Bia.GetComponent<Player>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(biaScript.getStep()==0){
+            if(biaScript.getStep()==0){
             if(PlayerPrefs.GetString("Choice02") == "01-Boat") {
                 biaScript.NextStep(1);
             } else {

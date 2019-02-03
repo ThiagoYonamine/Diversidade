@@ -2,11 +2,11 @@
 (#M00qual o seu nome[L2];
 ( )  ( !#Cliue o micofone e falenome bem eeeelto pra conseguir te ouvir) (;
 (HM05 #uuaaauuu que nome ai bonitoo) ( [L5];
-(hum eu não ouvi direito, você pode repetir) (!;  
+(#M04hum eu não ouvi direitoo   voce pode repetiiir ) ([L5];
 (#quantos anos voce tem ?M04 !;
-(M00 #a sua idade é menor que a minha eu ja tenho cinco anosx [L9];
-(M00 #olha nossas idades são iguaisx [L9]; 
-(M00 #a sua idade é maioooooor que minha eu tenho apenas cinco anosx [L9];
+(M00 #a sua idade é menor que a minha eu ja tenho MC5 cinco anosx [L9];
+(M00 #MC1olha nossas idades são iguaisx [L9]; 
+(M00 #a sua idade é M10maioooooor M00que minha eu tenho apenas MC5cinco anosx [L9];
 (M00 #eu adoei te conhecer estou muuuito feliz yeaaah M03 x) ([L10];
 (M00 #hoje meus amigos vamos brincar no parque da escola seria muuuuuito legal se você fosse vamos la [L11];
 (M02 #para chegar na escola temos que atravear um rio voce quer atraesar pela ponte ou a canoa  [L12];
