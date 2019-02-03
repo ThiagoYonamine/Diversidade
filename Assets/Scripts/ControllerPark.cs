@@ -29,14 +29,5 @@ public class ControllerPark : MonoBehaviour
             } 
         }
 
-        if(biaScript.getStep() == 5){
-            if(PlayerPrefs.GetString("Choice01") == "01-Boat") {
-                PlayerPrefs.SetString("Choice02", "01-Bridge");
-            } else {
-                PlayerPrefs.SetString("Choice02", "01-Boat");
-            }
-            biaScript.NextStep(6);
-        }
-
     }
 }

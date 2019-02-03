@@ -11,12 +11,13 @@ public class ControllerBack : MonoBehaviour
     {
            biaScript= Bia.GetComponent<Player>();
             if(biaScript.getStep()==0){
-            if(PlayerPrefs.GetString("Choice02") == "01-Boat") {
-                biaScript.NextStep(1);
-            } else {
-                biaScript.NextStep(2);
-            }
-            
+                if(PlayerPrefs.GetString("Choice01") == "01-Boat") {
+                    PlayerPrefs.SetString("Choice02", "01-Bridge");
+                    biaScript.NextStep(2);
+                } else {
+                    PlayerPrefs.SetString("Choice02", "01-Boat");
+                    biaScript.NextStep(1);
+                }    
         }
     }
 }
