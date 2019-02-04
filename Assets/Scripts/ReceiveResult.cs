@@ -11,6 +11,7 @@ public class ReceiveResult : MonoBehaviour {
     public string[] resultDic;
     public int[] steps;
     public bool needNumber=false;
+    public int stepBack=-1;
     void onActivityResult(string recognizedText) {
         char[] delimiterChars = {'~'};
         string[] result = recognizedText.Split(delimiterChars);
@@ -19,7 +20,11 @@ public class ReceiveResult : MonoBehaviour {
         Debug.Log("RESULT: " + result[0]);
         for(int i=0 ; i<size ; i++){
             if(needNumber){
-                if(!isStringANumber(result[0])) continue;
+                if(!isStringANumber(result[0])) {
+                   Debug.Log("NOT NUMBER " + stepBack);
+                   player.GetComponent<Player>().NextStep(stepBack);
+                   return;
+                }
             }
             if(result[0] == resultDic[i] || resultDic[i]== "true" ) {  
                  Debug.Log("RESULT: " + result[0] + "Dic: " + resultDic[i] + "Step: " + i);     

@@ -819,6 +819,7 @@ MonoBehaviour:
   - "n\xE3o"
   steps: 060000000700000008000000
   needNumber: 0
+  stepBack: -1
 --- !u!222 &516941212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1026,8 +1027,9 @@ MonoBehaviour:
   - 4
   - 5
   - 6
-  steps: 0600000006000000060000000600000006000000070000000800000004000000
-  needNumber: 0
+  steps: 0600000006000000060000000600000006000000070000000800000008000000
+  needNumber: 1
+  stepBack: 4
 --- !u!222 &772861231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1382,6 +1384,7 @@ MonoBehaviour:
   - true
   steps: 0300000004000000
   needNumber: 0
+  stepBack: -1
 --- !u!222 &1127861534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1655,7 +1658,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 9
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1253869356
@@ -1796,7 +1799,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: sim
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1267225712

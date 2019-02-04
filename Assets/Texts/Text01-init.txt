@@ -14,4 +14,4 @@
 (M00 #muito bem, otima escolha [L15];
 (M00 #muito bem, otima escolha [L16];
 [S01-Bridge];
-[S01-antesHistIndio];
+[S01-AntesIndio];
