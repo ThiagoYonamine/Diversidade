@@ -19,5 +19,9 @@ void Start(){vid.loopPointReached += CheckOver;}
             SceneManager.LoadScene(scene, LoadSceneMode.Single);
         }
     }
+
+    public void Skip(){
+         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
  
 }
