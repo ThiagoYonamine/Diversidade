@@ -1295,5 +1295,10 @@ PrefabInstance:
       propertyPath: buttons
       value: 
       objectReference: {fileID: 930537741}
+    - target: {fileID: 6816038862088059246, guid: bdfdb82411beca746805286748fe73ce,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdfdb82411beca746805286748fe73ce, type: 3}

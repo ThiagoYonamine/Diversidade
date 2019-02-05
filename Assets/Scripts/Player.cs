@@ -50,7 +50,7 @@ public class Player : MonoBehaviour {
     }
 
     public void setFirstChoice(string v) {
-            PlayerPrefs.SetString("FirstChoice", v);
+            PlayerPrefs.SetString("Choice01", v);
     }
     private void LoadText() {
         textsGuide = textFile.text.Split(new string[] { ";" }, StringSplitOptions.None);   

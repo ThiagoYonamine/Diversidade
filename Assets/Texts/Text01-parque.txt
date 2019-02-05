@@ -1,8 +1,8 @@
-( # a brincadeira que a gente mais gosta e esconde-esconde [L1];
-( #MC5 quem quer brincar de ! esconde esconde poe o dedo aauuii que aa vaaii fechar e nao vai aaabriiii ; 
+( #MC1 ricadeira ue a gete ais osta ee )esconde  esconde( [L1];
+( #MC5 queem queer briincar dee ! esconde escoonde poe o deedo HHHquii que a vHHii fechar e naao vaai HHHbii ; 
 #M03xx [L3];
-( # vamos ver quantos amiguinhos vao brincar com a gente [L4];
-(#MC1umMC2doisMC3tresMC4quatroMC5cinco seis. huum esta faltando um amiguinho, o que voce quer fazer procurar o amiguinho ou continuar brincando !;
-( # poxa, brincar sem o rafa nao vai ser legal e o rafa vai ficar triste nao podemos deixar nossos amigos tritees [L6];
-( # e muito melhor quando brincamos todos juntooo vamos procura-lo [L7];
+( #vamos ver quatos amiguihos vao bicar co a gete[L4];
+(#MC1   uuuuumm     MC2dooooiiiis  xx  M04uuuum esta faltando um amiguinho o que voce quer fazer procurar o amiguinho ou continuar brincandoM05? !;
+(#MC1pooozaa ?    brincar sem o rafa nao vai ser legaal e o rafa vai fiar M00) tite nao (poemos dezzar nosos amios tites [L6];
+(# e muito melor M05 quano bincamos todos jutooo vamos pocura loo H [L7];
 [S01-escadaRafa];

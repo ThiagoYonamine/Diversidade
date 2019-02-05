@@ -3,5 +3,4 @@
 ( # clique nos amiguinhos que voce encontrar !;
 ( # voce e muito bom, encontrou todos os nossos amigos[L4];
 ( # agora vamos voltar para casa e contar para nossa familia tudo o que aprendemos hoje [L5];
-x;
 [S01-Back];

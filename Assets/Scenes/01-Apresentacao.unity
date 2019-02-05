@@ -644,17 +644,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1689419362}
-        m_MethodName: NextStep
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1689419362}
         m_MethodName: setFirstChoice
         m_Mode: 5
         m_Arguments:
@@ -663,6 +652,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 01-Bridge
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1689419362}
+        m_MethodName: NextStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 13
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -818,6 +818,8 @@ MonoBehaviour:
   - sim
   - "n\xE3o"
   steps: 060000000700000008000000
+  needNumber: 0
+  stepBack: -1
 --- !u!222 &516941212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1026,6 +1028,8 @@ MonoBehaviour:
   - 5
   - 6
   steps: 0600000006000000060000000600000006000000070000000800000008000000
+  needNumber: 1
+  stepBack: 4
 --- !u!222 &772861231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1266,17 +1270,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1689419362}
-        m_MethodName: NextStep
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 14
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1689419362}
         m_MethodName: setFirstChoice
         m_Mode: 5
         m_Arguments:
@@ -1285,6 +1278,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 01-Boat
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1689419362}
+        m_MethodName: NextStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 14
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1379,6 +1383,8 @@ MonoBehaviour:
   resultDic:
   - true
   steps: 0300000004000000
+  needNumber: 0
+  stepBack: -1
 --- !u!222 &1127861534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2268,7 +2274,7 @@ SpriteRenderer:
   m_Size: {x: 71.24, y: 29.699999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!224 &1696619770

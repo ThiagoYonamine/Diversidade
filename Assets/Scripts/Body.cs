@@ -11,6 +11,7 @@ public class Body : MonoBehaviour {
     private int body_jump;
     private int body_question;
     private int body_idea;
+    private int body_back;
     private int[] body_count = new int[10];
     void Start() {
         animator = this.GetComponent<Animator> ();
@@ -20,6 +21,7 @@ public class Body : MonoBehaviour {
         body_jump = Animator.StringToHash(spriteName + "_body_jump");
         body_question  = Animator.StringToHash(spriteName + "_body_question");
         body_idea  = Animator.StringToHash(spriteName + "_body_idea");
+        body_back = Animator.StringToHash(spriteName + "_body_back");
         for(int i=0;i<9;i++){
              body_count[i] = Animator.StringToHash(spriteName + "_C0" + (i+1).ToString());
         }
@@ -57,6 +59,9 @@ public class Body : MonoBehaviour {
                     break;
                 case "05":
                     animator.Play(body_idea);
+                    break;
+                case "07":
+                    animator.Play(body_back);
                     break;
 
                 case "C1":
