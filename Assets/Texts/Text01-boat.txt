@@ -1,6 +1,6 @@
 ( #vamos pedir ajuda ao indiozios para ataesar iiioo x [L1];
 ( #para atravessar o rio precisamos de M10 dez indiozinhos na canoa MC1 uuuum MC2 dooiiis  MC3 teeess  MC4 quuaaaouxquatro indiozinos ja estao na canoa   quantos indiozinhos fatam para comletar M10 dee ?! clique no botao com a  resposta correta ;
-(MC2#ooiix  M05 vaamos somaaax ?M04quuaaoox aaiis ooiisx ao MC6 eeiix M05 quase la, Nos precisamos de M10 dez. Tente outra vez !;
-(MC5#iincoox  M05 vaamos somaaax ?M04quuaaoox aaiis iinoox ao MC9 ooeex M05 falta pouco, a soma deve ser M10 dez. Tente outra vez !;
-(MC6#eeiisx M05 vaamos somaaax ?M04quuaaoox aaiis eeisx aoM10 deex M03xx e isso mesmo, vamos la [L5];
+(MC2#ooii x M05 vaamos somaaa x?M04quuaaoo x aaiis ooiis x ao MC6 eeii x M05 quase la, nos precisamos de M10 dez. tente outra vez !;
+(MC5#iincoo x M05 vaamos somaaa x?M04quuaaoo x aaiis iinoo x ao MC9 ooee x M05 falta pouco, a soma deve ser M10 dez. tente outra vez !;
+(MC6#eeiis x M05 vaamos somaaa x?M04quuaaoo x aaiis eeis x aoM10 dee x M03xx e isso mesmo, vamos la [L5];
 [S01-Indio];

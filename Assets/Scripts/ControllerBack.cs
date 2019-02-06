@@ -14,6 +14,7 @@ public class ControllerBack : MonoBehaviour
                 if(PlayerPrefs.GetString("Choice01") == "01-Boat") {
                     PlayerPrefs.SetString("Choice02", "01-Bridge");
                     biaScript.NextStep(1);
+                    Debug.Log("Step: Choice02 01-Bridge");
                 } else {
                     PlayerPrefs.SetString("Choice02", "01-Boat");
                     biaScript.NextStep(2);
