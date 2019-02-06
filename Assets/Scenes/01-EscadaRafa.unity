@@ -752,7 +752,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 21300000, guid: 10b909fada00fe449a89f92776e6a3eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 129a0c8d4ba95024ebd9134b727145b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -771,8 +771,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526993049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.64, y: 0.89, z: 0}
-  m_LocalScale: {x: 1.8929089, y: 2.139613, z: 0.907}
+  m_LocalPosition: {x: -1.54, y: 1.28, z: 0}
+  m_LocalScale: {x: 1.6192908, y: 1.830334, z: 0.77589405}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1210,7 +1210,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 21300000, guid: f720e794f2bb20d49a1ce581792fcab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 705a2a226a23a3e4d9bb61b2e31fdb40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -1229,8 +1229,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964004590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.14, y: 1.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.09, y: 0.56, z: 0}
+  m_LocalScale: {x: 0.873, y: 0.873, z: 0.873}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1269,7 +1269,7 @@ PrefabInstance:
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.size
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
@@ -1290,7 +1290,7 @@ PrefabInstance:
         type: 3}
       propertyPath: audioClips.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 5d92ac2224c366b4eb2544e5dad49da3, type: 3}
+      objectReference: {fileID: 8300000, guid: 3ca698b3498c42b45a08bf454cc4a90c, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioSource
@@ -1315,17 +1315,17 @@ PrefabInstance:
         type: 3}
       propertyPath: audioClips.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 3ca698b3498c42b45a08bf454cc4a90c, type: 3}
+      objectReference: {fileID: 8300000, guid: 611fa959adce2dd47a924374414c0c6a, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[5]
       value: 
-      objectReference: {fileID: 8300000, guid: 611fa959adce2dd47a924374414c0c6a, type: 3}
+      objectReference: {fileID: 8300000, guid: 38c3ea1faa5af214593cded456509cce, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[6]
       value: 
-      objectReference: {fileID: 8300000, guid: 38c3ea1faa5af214593cded456509cce, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d92ac2224c366b4eb2544e5dad49da3, type: 3}
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[7]
@@ -1334,6 +1334,11 @@ PrefabInstance:
     - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
         type: 3}
       propertyPath: audioClips.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 32584794cf543294daef20e68d083f51, type: 3}
+    - target: {fileID: 1660284408000762130, guid: 72912b1008484a94ebd3674728d16e9e,
+        type: 3}
+      propertyPath: audioClips.Array.data[9]
       value: 
       objectReference: {fileID: 8300000, guid: 32584794cf543294daef20e68d083f51, type: 3}
     - target: {fileID: 3400214771439880645, guid: 72912b1008484a94ebd3674728d16e9e,
@@ -2416,7 +2421,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 21300000, guid: ec4fce9054d8fe14c8893cea66bbcb3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26171dc7ad3847741853c6f3cedcc549, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -2435,8 +2440,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098223066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 0.5, z: 0}
-  m_LocalScale: {x: 1.76, y: 1.76, z: 1.76}
+  m_LocalPosition: {x: -0.21, y: 2.34, z: 0}
+  m_LocalScale: {x: 1.17392, y: 1.17392, z: 1.17392}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
