@@ -137,7 +137,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092802498}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: acc2d82f71edca14a893e7d6ba651f1c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 133169a8b81133d4e9d64cd983f3d9d2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2081372081}
@@ -153,7 +153,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.82
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
@@ -574,3 +574,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vid: {fileID: 1092802499}
   scene: 01-school
+  isFinal: 1

@@ -31,6 +31,7 @@ public class Player : MonoBehaviour {
 
     public GameObject buttons;
     void Start() {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         step = 0;
         mouth = this.gameObject.transform.GetChild(0).gameObject;
         mouthScript = mouth.GetComponent<Mouth>();
@@ -79,6 +80,9 @@ public class Player : MonoBehaviour {
     public void NextStep(int newstep) {
             step = newstep;
             Debug.Log("GOTO: " + step);
+            if(coroutine!=null) {
+                StopCoroutine(coroutine);
+            }
             coroutine = StartCoroutine(Control(textsGuide[step]));
            // log.text = textsGuide[step];
             HideAllButtons();
@@ -110,7 +114,7 @@ public class Player : MonoBehaviour {
         for(int i=0;i<s.Length;i++) {
             char c = s[i];
             if (c=='[') {
-                StopCoroutine(coroutine);
+               // StopCoroutine(coroutine);
                 getJump(s.Substring(i));
                 yield return 0;
             } else if(c=='M') {

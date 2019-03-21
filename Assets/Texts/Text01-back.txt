@@ -1,5 +1,5 @@
 x;
-( # M07 vamos voltar para casa pela ponte xx [L03];
-( # M07 vamos voltar para casa com a canoa xx [L04];
+( # M07 vamos voltar para casa pela ponte xx [L3];
+( # M07 vamos voltar para casa com a canoa xx [L4];
 [S01-Bridge];
-[S01-Boat];
+[S01-AntesIndio];

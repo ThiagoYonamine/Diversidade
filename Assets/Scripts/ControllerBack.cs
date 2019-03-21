@@ -8,16 +8,21 @@ public class ControllerBack : MonoBehaviour
     private Player biaScript;
     private bool redirect;
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start()  {
            biaScript= Bia.GetComponent<Player>();
-           redirect=true;
            
+            StartCoroutine(waitStart());
+    }
+    
+   IEnumerator waitStart() {
+         yield return new WaitForSeconds(1.5f);
+         redirect=true;
     }
 
     void Update(){
          if(biaScript.getStep()==0 && redirect){
             redirect = false;
+             Debug.Log("ENTREI AQUI");
                 if(PlayerPrefs.GetString("Choice01") == "01-Boat") {
                     PlayerPrefs.SetString("Choice02", "01-Bridge");
                     biaScript.NextStep(1);

@@ -6,9 +6,13 @@ using UnityEngine.SceneManagement;
  
 public class VideoController : MonoBehaviour {
 public VideoPlayer vid;
-public string scene; 
+public string scene;
+public bool isFinal = false; 
  
-void Start(){vid.loopPointReached += CheckOver;}
+void Start(){
+    vid.loopPointReached += CheckOver;
+      Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
  
     void CheckOver(UnityEngine.Video.VideoPlayer vp) {
         vid.enabled = false;
@@ -21,7 +25,11 @@ void Start(){vid.loopPointReached += CheckOver;}
     }
 
     public void Skip(){
-         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+         if (PlayerPrefs.HasKey("Choice02") && isFinal) {
+            SceneManager.LoadScene("01-Fim", LoadSceneMode.Single);
+        } else {
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        }
     }
  
 }

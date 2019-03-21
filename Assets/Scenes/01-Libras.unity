@@ -340,6 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vid: {fileID: 283960590}
   scene: 01-School
+  isFinal: 1
 --- !u!1001 &993880973
 PrefabInstance:
   m_ObjectHideFlags: 0
