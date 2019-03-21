@@ -325,6 +325,11 @@ PrefabInstance:
       propertyPath: buttonFile
       value: 
       objectReference: {fileID: 4900000, guid: 9a4c64731288a8b438aa9014b3941b91, type: 3}
+    - target: {fileID: 6816038862088059246, guid: bdfdb82411beca746805286748fe73ce,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6816038860839575254, guid: bdfdb82411beca746805286748fe73ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -354,11 +359,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.0082
-      objectReference: {fileID: 0}
-    - target: {fileID: 6816038862088059246, guid: bdfdb82411beca746805286748fe73ce,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdfdb82411beca746805286748fe73ce, type: 3}
