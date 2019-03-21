@@ -767,5 +767,10 @@ PrefabInstance:
       propertyPath: audioClips.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 7980a026c04de114d944b774959dc619, type: 3}
+    - target: {fileID: 5190228129799983142, guid: a3efcce1d4fcc304c979ccbc5c599a80,
+        type: 3}
+      propertyPath: buttonFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 873c7452a5e2a6c48baefd65952d98a5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3efcce1d4fcc304c979ccbc5c599a80, type: 3}
