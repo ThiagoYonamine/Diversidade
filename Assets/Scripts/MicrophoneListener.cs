@@ -27,7 +27,7 @@ using UnityEngine.UI;
 
 
         // The following line sets the maximum results you want for recognition
-        pluginClass.CallStatic("setMaxResults", 3);
+        pluginClass.CallStatic("setMaxResults", 5);
         Debug.Log("Max Results Set");
 
         // The following line sets the question which appears on intent over the microphone icon

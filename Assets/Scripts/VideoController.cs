@@ -17,7 +17,7 @@ void Start(){
     void CheckOver(UnityEngine.Video.VideoPlayer vp) {
         vid.enabled = false;
 
-        if (PlayerPrefs.HasKey("Choice02")) {
+        if (PlayerPrefs.HasKey("Choice02") && isFinal) {
             SceneManager.LoadScene("01-Fim", LoadSceneMode.Single);
         } else {
             SceneManager.LoadScene(scene, LoadSceneMode.Single);

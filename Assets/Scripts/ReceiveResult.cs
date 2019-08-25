@@ -16,16 +16,27 @@ public class ReceiveResult : MonoBehaviour {
         char[] delimiterChars = {'~'};
         string[] result = recognizedText.Split(delimiterChars);
 
+        if(!PlayerPrefs.HasKey("WrongAge")){
+             PlayerPrefs.SetInt("WrongAge", 0); 
+        }
+        int wrongAge =PlayerPrefs.GetInt("WrongAge");
+
         int size = resultDic.Length;
-        Debug.Log("RESULT: " + result[0]);
-        for(int i=0 ; i<size ; i++){
+
+        int age = haveNumber(result);
+        for(int i=0 ; i<size ; i++) {
             if(needNumber){
-                if(!isStringANumber(result[0])) {
-                   Debug.Log("NOT NUMBER " + stepBack);
-                   player.GetComponent<Player>().NextStep(stepBack);
-                   return;
+                if(age <= -1) {
+                    wrongAge++;
+                    PlayerPrefs.SetInt("WrongAge", wrongAge);
+                    if(wrongAge >= 2 ) stepBack = 9;
+                    player.GetComponent<Player>().NextStep(stepBack);
+                    return;
+                } else if(age.ToString() == resultDic[i] || resultDic[i]== "true") {
+                    player.GetComponent<Player>().NextStep(steps[i]);
+                    return;
                 }
-            }
+            } 
             if(result[0] == resultDic[i] || resultDic[i]== "true" ) {  
                  Debug.Log("RESULT: " + result[0] + "Dic: " + resultDic[i] + "Step: " + i);     
                 player.GetComponent<Player>().NextStep(steps[i]);
@@ -42,9 +53,24 @@ public class ReceiveResult : MonoBehaviour {
         onActivityResult(s);
     }
 
-    private bool isStringANumber(string s){
-        int n;
-        return int.TryParse(s, out n);
+
+    private int haveNumber(string[] input) {
+        int have = -1;
+        char[] delimiterChar = {' '};
+        
+        for(int i=0 ; i< input.Length ; i++) {
+            if(input[i] != null){
+                string[] words = input[i].Split(delimiterChar);
+                for(int j=0 ; j< words.Length ; j++) {
+                    if (int.TryParse(words[j], out have))  {
+                        return have;
+                    } else {
+                        have = -1;
+                    }
+                }
+            }
+        }
+      return have;
     }
 
 }

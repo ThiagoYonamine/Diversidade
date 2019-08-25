@@ -1,4 +1,3 @@
 ( #M02 esses sao os meus amigos M00 a aaana o raaaaafa e o duuudduuu [L1];
-( # nos sempre brinaaamos juuntoo teemos reespeiito e educacaooo por isso somoos muuuiito aaiiiigos e nuuuncaaa briigaaamoooos  H [L2];
-( # Agora vamos ter aula com a profeesoora eliana aaaa eu adoro as aulas delaaa  H [L3];
-x;
+( # nos sempre brinaaamos juuntoo teemos reespeiito e educacaooo por isso somoos muuuiito aaiiiigos e nuuuncaaa briigaaamoooooos    H   [L2];
+[S01-SchoolInside2];
